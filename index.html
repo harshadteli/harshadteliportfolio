@@ -1,76 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construction</title>
-    <style>
-       body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-}
-
-.container {
-    width: 80%;
-    margin: 40px auto;
-    text-align: center;
-    color: #ff0000; /* Red color */
-}
-
-.animation-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-    margin: 20px auto;
-}
-
-.circle {
-    width: 20px;
-    height: 20px;
-    background-color: #ff0000; /* Red color */
-    border-radius: 50%;
-    animation: pulse 1s infinite;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-.circle:nth-child(1) {
-    animation-delay: 0.2s;
-}
-
-.circle:nth-child(2) {
-    animation-delay: 0.4s;
-}
-
-.circle:nth-child(3) {
-    animation-delay: 00.6s;
-}
-    </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshad Teli - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hii...,I am Harshad Teli,Welcome to my portfolio web-page.">
+  <meta name="keywords" content="portfolio">
+  <meta name="subject" content="introduction">
+  <meta name="copyright" content="Harshad Teli">
+  <meta name="language" content="English">
+  <meta name="robots" content="index,follow">
+  <meta name="revised" content="saturday,august 3th,2025,8:45 pm">
+  <meta name="abstract" content="I am  the Software developer and interested t learning the latest technology.">
+  <meta name="topic" content="Software Development">
+  <meta name="summary" content="I am developing the mini softwares with advanced Technology.">
+  <meta name="classification" content="business">
+  <meta name="author" content="Harshad Teli">
+  <meta name="author" content="harshadteli697@gmail.com">
+  <meta name="designer" content="Harshad Teli">
+  <meta name="reply-to" content="harshtech417@gmail.com">
+  <meta name="owner" content="Harshad Teli">
+  <meta name="directory" content="Technology">
+  <meta name="pagename" content="Harshad Teli Portfolio">
+  <meta name="category" content="Web Development">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
+  <!-- Google site verification code -->
+  <meta name="google-site-verification" content="B3a3ZbAh_Xv1_U0zF5mqbKrUp80nEmUqpMu7ZdiwMQI" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+  <link rel="shortcut icon" href="./assets/IMAGES/harshad.jpg" type="image/x-icon">
 </head>
+
 <body>
-   
-    <div class="container">
-        <h1>This Site Under Construction</h1>
-        <p>&copy; 2025 Harshtech Organization | All Rights Reserved</p>
-        <div class="animation-container">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+  <nav>
+    <!-- <a href="#about">About</a> -->
+    <a href="#skills">Skills</a>
+    <!-- <a href="#skills">Certificates</a> -->
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <header>
+    <img src="./assets/IMAGES/harshad.jpg" alt="Harshad Teli">
+    <h1>Harshad Teli</h1>
+    <p class="typing-text" id="typedText"></p>
+  </header>
+  <div class="container">
+    <button class="download-btn" onclick="downloadResume()">📄 Download Resume</button>
+    <section class="section about" id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Harshad, a passionate developer who enjoys creating smart, efficient, and user-friendly
+        applications. I love exploring new technologies and solving real-world problems using code.</p>
+    </section>
+
+    <section class="section skills" id="skills">
+      <h2>Skills</h2>
+      <span>C</span><span>C++</span><span>PYTHON</span>
+      <span>
+        <font color="orange">JAVA</font>
+      </span><span>HTML</span><span>CSS</span>
+      <span>JAVASCRIPT</span><span>C#</span><span>PHP</span><span>.NET</span><span>SQL</span>
+      <span>Git & Github</span>
+    </section>
+
+    <section class="section projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="./assets/IMAGES/Natasha.jpg" alt="AI-Chatbot">
+        <div class="project-content">
+          <strong>🤖 AI Chatbot Assistent</strong>
+          <p>Text-Command based chatbot with theme toggle,animations,audio response system and pdf export with chat
+            history.
         </div>
-    </div>
-    <center><img src="work.gif"alt="E404"/></center>
-    <script>
-       
-    </script>
+        <div class="project-links">
+          <a href="https://github.com/harshadteli/natasha-chatbot-assistent" target="_blank">GitHub</a>
+          <a href="https://harshadteli.github.io/natasha-chatbot-assistent/" target="_blank">Live</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./assets/IMAGES/2.gif" alt="AI Assistant">
+        <div class="project-content">
+          <strong>🎙️ AI Voice Assistant</strong>
+          <p>Voice-based chatbot with theme toggle, animations, and PDF export.</p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/harshadteli/natashaassistentaitechnology" target="_blank">GitHub</a>
+          <a href="https://harshadteli.github.io/natashaassistentaitechnology/" target="_blank">Live</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./assets/IMAGES/resume.png" alt="resume">
+        <div class="project-content">
+          <strong>📜 AI-Resume builder</strong>
+          <p>This AI application can build your resume by entering the appropriate information of the user and create
+            awsome
+            resume.The user can also download the resume as pdf..</p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/harshadteli/web-product2" target="_blank">GitHub</a>
+          <a href="https://harshadteli.github.io/web-product2/" target="_blank">Live</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./assets/IMAGES/nck.jpeg" alt="nckbcs-logo">
+        <div class="project-content">
+          <strong>🏢 B.S.C Computer Science (Entire) - Webpage</strong>
+          <p>This project content the simple page of B.C.S deaprtment at The New College Kolhapur with different pages
+            according
+            to the Structure and events. </p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/harshadteli/nckbcs3/" target="_blank">GitHub</a>
+          <a href="https://nckbcs.netlify.app" target="_blank">Live</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./assets/IMAGES/1.gif" alt="Search Engine">
+        <div class="project-content">
+          <strong>👨‍💻 Programming Skills E-Learning Platform</strong>
+          <p>This Project include simple AI guide integration that help to user to guide the learning the various
+            Programming Skills.
+            In future I will work on this project to more advanced with inclding the various mock
+            tests,Code-snippets,Study material from different sources.
+          </p>
+        </div>
+        <div class="project-links">
+          <!-- <a href="https://github.com/web-product8" target="_blank">GitHub</a> -->
+          <a href="https://harshadteli.github.io/web-product8/" target="_blank">Live</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section harshtech" id="harshtech">
+      <img src="./assets/IMAGES/harshtech.png" alt="HarshTech Logo" style="border-radius: 50%;">
+      <div>
+        <h2>HarshTech</h2>
+        <p>Founded by Harshad Teli to empower digital transformation through innovation and AI-driven solutions.</p>
+        <div class="project-links">
+          <a href="https://harshadteli.github.io/harshtech.org/" target="_blank">Live</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="00192083-e36d-43de-9261-0002bf706a4e">
+        <input type="hidden" name="subject" value="Contact Form Harshad Portfolio">
+        <input type="hidden" name="This Form is submitted in the https://harshadteli.github.io/harshadteliportfolio/.">
+        <input type="text" name="User Name:" placeholder="Your Name" required>
+        <input type="email" name="User Email-ID:" placeholder="Your Email" required>
+        <textarea rows="4" name="User-Message:-" placeholder="Your Message" required></textarea>
+        <input type="hidden" name="_captcha" value="false" />
+        <button type="submit">Send Message</button>
+      </form>
+      <p>Email: <a href="mailto:harshadteli697@gmail.com">harshadteli697@gmail.com</a></p>
+    </section>
+
+  </div>
+  <div class="floating-icons">
+    <a href="https://www.instagram.com/ha.rshad4727?igsh=MTlmbHFkMTlnMnh2dQ==" target="_blank"><img
+        src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram"></a>
+    <a href="https://github.com/harshadteli" target="_blank"><img
+        src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/harshad-teli-560700330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
+  </div>
+  <footer>
+    <p>© 2025 Harshad Teli | All Rights reserved.</p>
+  </footer>
+  <script src="./assets/JS/script.js"></script>
+  <script src="./assets/JS/prevent.js"></script>
 </body>
+
 </html>
